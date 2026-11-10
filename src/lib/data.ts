@@ -5,36 +5,59 @@ export const personalInfo: PersonalInfo = {
   title: "Computer Engineering Student",
   bio: "I'm Carlota Lemos, a Computer Engineering student, building a strong\n" +
       "                academic foundation in software engineering while focusing on Front-End\n" +
-      "                development to create seamless and user-friendly digital experiences.",
+      "                development and Project Management to create seamless and user-friendly\n" +
+      "                digital experiences.",
+
   bioParagraph2: "I am currently pursuing a bachelor's degree in Computer Engineering\n" +
       "                at Instituto Superior de Engenharia do Porto (ISEP), expected to be\n" +
-      "                completed in 2027. Since the beginning of my studies, I have been\n" +
-      "                particularly drawn to Front-End development, where I discovered the\n" +
-      "                perfect balance between creativity and technology. I enjoy working with\n" +
-      "                React and modern web technologies to build intuitive interfaces, while\n" +
-      "                strengthening my foundation in Java, an essential part of my academic\n" +
-      "                journey.",
-  linkedin: "https://www.linkedin.com/in/carlotamlemos",
-  github: "https://github.com/carlotalemos",
-  cv: "/docs/CV_CARLOTALEMOS.pdf",
+      "                completed in 2027, and currently expanding my studies through an Erasmus+\n" +
+      "                international exchange program at Sapienza Università di Roma. Since the\n" +
+      "                beginning of my studies, I have been particularly drawn to Front-End\n" +
+      "                development, where I discovered the perfect balance between creativity and\n" +
+      "                technology. Beyond my academic journey in Java and software engineering,\n" +
+      "                I have gained hands-on professional experience leading frontend core development\n" +
+      "                at Adhara Academy and working as a Software Engineer Summer Intern at CGI Portugal,\n" +
+      "                which also sparked my strong interest in the Project Management field.",
+
+  linkedin: "https://www.linkedin.com/in/carlotamendeslemos",
+  github: "https://github.com/carlotamendeslemos",
+  cv: "/docs/LEMOSCARLOTA_CV.pdf",
 };
 
 export const skills: Skill[] = [
+  // --- Technical Skills (Programming & Web) ---
   { name: "Java", category: "technical" },
-  { name: "JavaFX", category: "technical" },
-  { name: "C/C++", category: "technical" },
-  { name: "Assembly", category: "technical" },
   { name: "Python", category: "technical" },
-  { name: "SQL", category: "technical" },
-  { name: "HTML", category: "technical" },
-  { name: "CSS", category: "technical" },
-  { name: "Next.js", category: "technical" },
+  { name: "C/C++", category: "technical" },
+  { name: "JavaScript", category: "technical" },
+  { name: "TypeScript", category: "technical" },
+  { name: "Magik", category: "technical" },
+  { name: "Assembly", category: "technical" },
   { name: "React", category: "technical" },
-  { name: "Tailwind CSS", category: "technical" },
+  { name: "Next.js", category: "technical" },
   { name: "JavaFX", category: "technical" },
+  { name: "HTML5", category: "technical" },
+  { name: "CSS3", category: "technical" },
+  { name: "Tailwind CSS", category: "technical" },
+  { name: "Oracle SQL", category: "technical" },
+  { name: "PL/SQL", category: "technical" },
+
+  // --- Developer Tools & Design Environments ---
+  { name: "Git", category: "tools" },
+  { name: "Docker", category: "tools" },
+  { name: "Jira", category: "tools" },
+  { name: "VS Code", category: "tools" },
+  { name: "IntelliJ IDEA", category: "tools" },
+  { name: "GNU Emacs", category: "tools" },
+  { name: "Jupyter Notebook", category: "tools" },
   { name: "Figma", category: "tools" },
   { name: "Affinity", category: "tools" },
-  { name: "Canva", category: "tools" }
+  { name: "Canva", category: "tools" },
+
+  // --- Methodologies & Frameworks ---
+  { name: "Agile (Scrum)", category: "soft" },
+  { name: "Project Management Foundations", category: "soft" },
+  { name: "Business Analysis", category: "soft" }
 ];
 
 export const languages: Language[] = [
@@ -45,10 +68,34 @@ export const languages: Language[] = [
 
 export const timeline: TimelineItem[] = [
   {
+    title: "Erasmus+ International Exchange Program",
+    organization: "Sapienza Università di Roma",
+    date: "SEP 2026 - JAN 2027",
+    description: "Enrolled in the Bachelor’s in Applied Computer Science and Artificial Intelligence in Rome, Italy, as part of the Erasmus+ international mobility program, expanding technical knowledge in AI and global academic collaboration."
+  },
+  {
+    title: "Vice-President",
+    organization: "NEI-ISEP",
+    date: "JUN 2026 - Present",
+    description: "Lead and coordinate a 65-member student organization, overseeing multiple departmental operations to ensure strategic alignment and productivity. Responsible for managing internal workflows, member performance, and cross-departmental collaboration, while overseeing the planning, budgeting, and execution of large-scale academic and tech events."
+  },
+  {
+    title: "Ambassador",
+    organization: "CGI Portugal",
+    date: "AUG 2025 - Present",
+    description: "Focused on representing CGI within the academic community. Committed to connecting students with industry insights, sharing knowledge, and encouraging innovation."
+  },
+  {
     title: "Frontend Developer",
     organization: "Adhara Academy",
-    date: "APR 2026 - Present",
-    description: "Working part-time as a Frontend Developer at Adhara Academy, I contribute to the development of the Adhara QBank platform, a scalable and adaptive web solution designed for medical exam preparation. I am responsible for implementing responsive and high-performance user interfaces, ensuring a seamless and intuitive user experience across study and test environments. My work includes developing complex UI components, interactive workflows, and data-driven dashboards, while maintaining a strong focus on usability, performance, and clean design aligned with modern frontend best practices."
+    date: "APR 2026 - SEP 2026",
+    description: "Led the frontend core development of the Adhara QBank platform, a scalable and adaptive medical exam preparation web solution. Responsible for architecting and implementing high-performance user interfaces using React and JavaScript. Engineered advanced question filters, dynamic exam simulators, and data-driven analytical dashboards, while optimizing application performance with mobile-first layouts, PWA offline support, and background preloading."
+  },
+  {
+    title: "Software Engineer Summer Intern",
+    organization: "CGI Portugal",
+    date: "JUL 2026 - AUG 2026",
+    description: "Completed technical training in GE Smallworld GIS and its native language, Magik, focusing on object-oriented design and asset data modeling for the E-REDES grid. Queried the VMDS database, executed spatial transactions, and analyzed network topologies to identify data integrity issues. Also completed the CAPM® Certification Path via CGI Academia."
   },
   {
     title: "Participant",
@@ -58,6 +105,12 @@ export const timeline: TimelineItem[] = [
     certificate: "/docs/ENEI_2026.pdf"
   },
   {
+    title: "Design Department Co-Coordinator",
+    organization: "NEI-ISEP",
+    date: "JAN 2026 - JUN 2026",
+    description: "Co-coordinated a 14-member design team, managing internal workflows and ensuring consistent branding and engaging communication across all web platforms and social media."
+  },
+  {
     title: "Best Project - Logistics on Rails",
     organization: "ISEP",
     date: "JAN 2026",
@@ -65,16 +118,10 @@ export const timeline: TimelineItem[] = [
     certificate: "/docs/logistics-on-rails.pdf"
   },
   {
-    title: "Design Department Coordinator",
+    title: "Design Department Member",
     organization: "NEI-ISEP",
-    date: "JAN 2025 - Present",
-    description: "Coordinating the Image Department, I am responsible for maintaining a consistent visual identity and ensuring clear and engaging communication across all media."
-  },
-  {
-    title: "Ambassador",
-    organization: "CGI Portugal",
-    date: "AUG 2025 - Present",
-    description: "Focused on representing CGI within the academic community. Committed to connecting students with industry insights, sharing knowledge, and encouraging innovation."
+    date: "JUL 2025 - JAN 2026",
+    description: "I collaborated with the team to create visual content that strengthens the organization's image and effectively conveys its initiatives and values, namely through the design of event pages, social media content, and the creation of a complete visual identity for each event."
   },
   {
     title: "Best Project - Railroad Simulator",
@@ -82,12 +129,6 @@ export const timeline: TimelineItem[] = [
     date: "JUL 2025",
     description: "Developed a railway network simulation system in Java with a JavaFX interface, enabling map creation, train routing and scheduling, and passenger and cargo transport monitoring, supported by route optimization algorithms and system modelling.",
     certificate: "/docs/railroad-simulator.pdf"
-  },
-  {
-    title: "Design Department Member",
-    organization: "NEI-ISEP",
-    date: "JUL 2025 - JAN 2026",
-    description: "I collaborated with the team to create visual content that strengthens the organization's image and effectively conveys its initiatives and values, namely through the design of event pages, social media content, and the creation of a complete visual identity for each event."
   },
   {
     title: "Participant",
@@ -109,6 +150,7 @@ export const timeline: TimelineItem[] = [
     description: "Currently pursuing a Bachelor’s degree in Computer Engineering, with a strong focus on software development and algorithms, building a solid foundation in creating efficient and reliable technological solutions."
   }
 ];
+
 
 export const projects: Project[] = [
   {

@@ -11,7 +11,7 @@ export interface PersonalInfo {
 
 export interface Skill {
   name: string;
-  category: 'technical' | 'tools';
+  category: 'technical' | 'tools' | 'soft';
 }
 
 export interface Language {
